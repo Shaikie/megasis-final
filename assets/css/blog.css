@@ -1,0 +1,144 @@
+/* Reset and base styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+}
+
+/* Main grid layout: left side = posts, right = sidebar */
+.grid-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 40px;
+  padding: 40px;
+}
+
+/* Style for all post sections */
+.grid-container section[class^="main-"] {
+  background-color: #f9f9f9;
+  margin-bottom: 40px;
+}
+
+.grid-container section[class^="main-"] img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.article {
+  padding: 20px;
+}
+
+.article .date {
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.article h2 {
+  margin: 10px 0;
+}
+
+.article p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.meta {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Sidebar styling */
+.sidebar {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-height: 100vh;       /* Prevents overflowing the screen height */
+  overflow: hidden;        /* Disables scrolling */
+  /* box-sizing: border-box; */
+}
+
+/* Widget styling */
+.sidebar .widget {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  border: 1px solid #ddd;
+}
+
+.widget {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  border: 1px solid #ddd;
+}
+
+/* Optional: add subtle hover effect */
+.widget:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+/* Input styling */
+.sidebar input[type="text"],
+.sidebar input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Button styling */
+.sidebar button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Common sidebar sections */
+.sidebar h3 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.tag-list span {
+  background-color: #e0e0e0;
+  padding: 6px 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.insta-grid img {
+  width: 100%;
+  border-radius: 4px;
+}
