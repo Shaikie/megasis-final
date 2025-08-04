@@ -39,6 +39,43 @@ body {
   margin-bottom: 10px;
 }
 
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+
+/* Date badge styling */
+.date-badge {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: crimson;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.date-badge .day {
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+  line-height: 1;
+}
+
+.date-badge .month {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+
 .article h2 {
   margin: 10px 0;
 }

@@ -4,16 +4,98 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Grid-Based Web Layout</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="../assets/css/blog.css" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'> -->
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
+<!-- header start -->
+    <header>
+  <div class="header-area">
+    <div class="main-header">
+
+      <div class="header-top">
+        
+            <div class="header-info-mid">
+              <div class="logo">
+                <a href="index.html"><img src="../assets/images/logo.png" alt="Logo"></a>
+              </div>
+            </div>
+
+            <div class="header-info-right">
+                <div class="header-social">
+                  <a href="https://www.fb.com/sai4ull"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <!-- <a href="#"><i class="bx bx-volleyball"></i></a> -->
+                </div>
+                <ul>
+                  <li><a href="login.html" class="header-btn">Sign in</a></li>
+                </ul>
+            </div>
+
+      </div>
+<hr class="">
+      <div class="header-bottom">
+        <div class="header-container">
+          <div class="bottom-wrap">
+            <div class="logo2">
+              <!-- <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a> -->
+            </div>
+            <div class="main-menu">
+              <nav>
+                <ul id="navigation">
+                  <li><a href="../index.html">Home</a></li>
+                  <li class="has-submenu">
+                    <a href="#">Page</a>
+                    <ul class="submenu">
+                      <li><a href="../pages/blog.html">Blog</a></li>
+                      <li><a href="../pages/blog.html">Blog Details</a></li>
+                      <li><a href="../post_details.html">Post Details</a></li>
+                      <li><a href="../category.html">Category</a></li>
+                      <li><a href="../elements.html">Element</a></li>
+                      <li><a href="../contact.html">Contact</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="../pages/category.html">Science</a></li>
+                  <li><a href="../pages/category.html">Technology</a></li>
+                  <li><a href="../pages/category.html">Beauty</a></li>
+                  <li><a href="../pages/category.html">Health</a></li>
+                  <li><a href="../pages/category.html">Arts &amp; Culture</a></li>
+                  <li><a href="../pages/category.html">Opinion</a></li>
+                  <li><a href="../pages/category.html">Videos</a></li>
+                  <li><a href="../pages/category.html">Gallery</a></li>
+                </ul>
+              </nav>
+            </div>
+            <form class="search-form" action="#">
+              <i class="ti-search"></i>
+              <input type="search" placeholder="Search Here" title="Search here">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end of header -->
   <div class="grid-container">
     <!-- Main Content Section -->
      <div class="post-section">
     <section class="main-1">
-      <img src="assets/images/pexels-meomupmofilm-2153775418-32965518.jpg" alt="Party scene" />
+        <div class="image-container">
+      <img src="../assets/images/pexels-meomupmofilm-2153775418-32965518.jpg" alt="Party scene" />
+     
+      <div class="date-badge">
+    <span class="day">15</span>
+    <span class="month">Jan</span>
+  </div></div>
       <div class="article">
-        <span class="date">15 June</span>
         <h2>Google inks pact for new 35-storey office</h2>
         <p>
           This donation aims to help downtown cities grow but don’t dare to that be worth it...
@@ -22,9 +104,14 @@
       </div>
     </section>
     <section class="main-2">
-      <img src="assets/images/pexels-meomupmofilm-2153775418-32965518.jpg" alt="Party scene" />
+     <div class="image-container">
+      <img src="../assets/images/pexels-meomupmofilm-2153775418-32965518.jpg" alt="Party scene" />
+      
+      <div class="date-badge">
+    <span class="day">15</span>
+    <span class="month">Jan</span>
+  </div></div>
       <div class="article">
-        <span class="date">15 June</span>
         <h2>Google inks pact for new 35-storey office</h2>
         <p>
           This donation aims to help downtown cities grow but don’t dare to that be worth it...
@@ -33,9 +120,14 @@
       </div>
     </section>
         <section class="main-3">
-      <img src="assets/images/pexels-meomupmofilm-2153775418-32965518.jpg" alt="Party scene" />
+      <div class="image-container">
+      <img src="../assets/images/pexels-meomupmofilm-2153775418-32965518.jpg" alt="Party scene" />
+      
+      <div class="date-badge">
+    <span class="day">15</span>
+    <span class="month">Jan</span>
+  </div></div>
       <div class="article">
-        <span class="date">15 June</span>
         <h2>Google inks pact for new 35-storey office</h2>
         <p>
           This donation aims to help downtown cities grow but don’t dare to that be worth it...
@@ -44,9 +136,14 @@
       </div>
     </section>
         <section class="main-4">
-      <img src="assets/images/pexels-meomupmofilm-2153775418-32965518.jpg" alt="Party scene" />
+      <div class="image-container">
+      <img src="../assets/images/pexels-meomupmofilm-2153775418-32965518.jpg" alt="Party scene" />
+      
+      <div class="date-badge">
+    <span class="day">15</span>
+    <span class="month">Jan</span>
+  </div></div>
       <div class="article">
-        <span class="date">15 June</span>
         <h2>Google inks pact for new 35-storey office</h2>
         <p>
           This donation aims to help downtown cities grow but don’t dare to that be worth it...
@@ -54,10 +151,17 @@
         <p class="meta">Travel Lifestyle | 16 Comments</p>
       </div>
     </section>
+
         <section class="main-5">
-      <img src="assets/images/pexels-meomupmofilm-2153775418-32965518.jpg" alt="Party scene" />
+     <div class="image-container">
+      <img src="../assets/images/pexels-meomupmofilm-2153775418-32965518.jpg" alt="Party scene" />
+      
+      <div class="date-badge">
+    <span class="day">15</span>
+    <span class="month">Jan</span>
+  </div></div>
       <div class="article">
-        <span class="date">15 June</span>
+
         <h2>Google inks pact for new 35-storey office</h2>
         <p>
           This donation aims to help downtown cities grow but don’t dare to that be worth it...
@@ -66,6 +170,7 @@
       </div>
     </section>
     </div>
+
     <!-- Sidebar Section -->
     <aside class="sidebar">
       <div class="search">
@@ -121,5 +226,74 @@
       </div>
     </aside>
   </div>
+
+
+  <!-- footer start -->
+   <footer>
+  <div class="footer-content footer-padding">
+
+    <!-- About -->
+    <div class="footer-section">
+      <h4>About</h4>
+      <ul class="quick-link">
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Mission</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">News</a></li>
+      </ul>
+    </div>
+
+    <!-- Categories 1 -->
+    <div class="footer-section">
+      <h4>Categories</h4>
+      <ul class="quick-link">
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Tips & Tricks</a></li>
+      </ul>
+    </div>
+
+    <!-- Categories 2 -->
+    <div class="footer-section">
+      <h4>Categories</h4>
+      <ul class="quick-link">
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Tips & Tricks</a></li>
+      </ul>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <ul class="quick-link">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Privacy Statement</a></li>
+        <li><a href="#">Use of cookies</a></li>
+        <li><a href="#">International Editions</a></li>
+      </ul>
+    </div>
+
+  </div>
+<div id="back-top" style="display: block;">
+  <a title="Go to Top" href="#"> 
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+</div>
+<hr class="custom">
+  <!-- Bottom -->
+  <div style="text-align: center; padding-top: 20px; font-size: 14px;">
+    <p>
+      &copy;<script>document.write(new Date().getFullYear());</script> 2025 All rights reserved | Made with 
+      <i class="fa fa-heart color-danger" aria-hidden="true"></i> by 
+      <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.ternet.or.tz/&ved=2ahUKEwi_ktqes-mOAxUkZ0EAHXQbHaYQFnoECBgQAQ&usg=AOvVaw1hVvQt5N7-oPJj_mQYhYbR" target="_blank" rel="nofollow noopener">TERNET</a>
+    </p>
+  </div>
+</footer>
+ <!-- end of footer -->
+  <script src="../assets/js/script.js"></script>
+<script src="../assets/js/update.js"></script>
 </body>
 </html>
