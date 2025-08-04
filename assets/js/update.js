@@ -6,7 +6,7 @@ const nextBtn = document.getElementById("btn-next");
 const visibleCount = 4;
 let index = 0;
 
-// 🔄 Clone first few cards and append them for looping effect
+//  Clone first few cards and append them for looping effect
 for (let i = 0; i < visibleCount; i++) {
     const clone = slides[i].cloneNode(true);
     track.appendChild(clone);
@@ -19,7 +19,7 @@ function moveSlide(newIndex) {
     track.style.transition = "transform 0.5s ease-in-out";
     track.style.transform = `translateX(-${index * 25}%)`;
 
-    // 🧠 Reset when looping reaches clones
+    //  Reset when looping reaches clones
     if (index >= allSlides.length - visibleCount) {
         setTimeout(() => {
             track.style.transition = "none";
