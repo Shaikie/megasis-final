@@ -17,3 +17,11 @@
       backTop.style.display = 'none';
     }
   });
+
+
+  const hamburger = document.querySelector('.hamburger');
+  const navMenu = document.querySelector('.main-menu nav ul');
+
+  hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+  });

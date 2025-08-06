@@ -629,7 +629,7 @@ h1 {
 /* Responsive adjustments */
 @media (max-width: 991px) {
   .main-menu {
-    display: none; /* Hide desktop menu on smaller screens */
+    display: block; /* Hide desktop menu on smaller screens */
   }
 }
 
