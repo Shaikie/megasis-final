@@ -250,6 +250,9 @@ padding: 20px;
   margin-bottom: 25px;
 }
 .social-buttons a {
+  border: 2px solid white ;
+/* background-color: red; */
+color: white;
   display: inline-flex;
   align-items: center;
   padding: 12px 20px;
@@ -264,23 +267,24 @@ padding: 20px;
   transition: opacity 0.2s ease;
 }
 .social-buttons i {
-  font-size: 16px;
-  color: black;
+  font-size: 14px;
+  margin-right: 10px;
+  color: white;
 }
 .social-buttons a:hover {
   opacity: 0.3s;
 }
 /* Social Media Colors */
-.btn.facebook {
+.facebook {
     background-color: #3b5998;
 }
-.btn.twitter {
+.twitter {
     background-color: #1da1f2;
 }
-.btn.pinterest {
+.pinterest {
     background-color: #e60023;
 }
-.btn.whatsapp {
+.whatsapp {
     background-color: #25d366;
 }   
 /*comments section*/
