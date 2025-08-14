@@ -219,6 +219,8 @@
   outline: none;
   border-color: #007bff;
 }
+
+/* body  */
 .container {
   max-width: 600px;
 margin: auto;
@@ -392,27 +394,27 @@ h2 {
   line-height: 1.5;
 }
 
-form {
+.comment-section form {
   display: flex;
   flex-direction: column;
   gap: 12px;
   margin-top: 20px;
 }
 
-form input,
-form textarea {
+.comment-section form input,
+.comment-section form textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 1em;
 }
 
-form textarea {
+.comment-section form textarea {
   resize: vertical;
   min-height: 100px;
 }
 
-form button {
+.comment-section form button {
   background-color: #C82027; /* Exact red tone from your design */
   color: white;
   font-size: 1em;
@@ -424,7 +426,7 @@ form button {
   transition: background-color 0.3s ease;
 }
 
-form button:hover {
+.comment-section form button:hover {
   background-color: #A1191E; /* Slightly darker shade on hover */
 }
 
@@ -476,13 +478,13 @@ form button:hover {
     font-size: 0.95em;
   }
 
-  form input,
-  form textarea {
+  .comment-section form input,
+  .comment-section form textarea {
     font-size: 0.95em;
     padding: 8px;
   }
 
-  form button {
+  .comment-section form button {
     font-size: 0.95em;
     padding: 10px;
   }
@@ -498,8 +500,8 @@ form button:hover {
     margin-top: 5px;
   }
 
-  form input,
-  form textarea {
+ .comment-section form input,
+  .comment-section form textarea {
     width: 100%;
   }
 }
